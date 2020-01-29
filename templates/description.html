@@ -1,0 +1,90 @@
+<!doctype html>
+<title>suicide rates overview 1985 to 2016</title>
+
+<head>
+    <style>
+        img {
+            width: 100%;
+        }
+    </style>
+    <style>
+        .button {
+            background-color: white;
+            color: black;
+            border: 2px solid #555555;
+
+            padding: 12px 24px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            text-align: center;
+            -webkit-transition-duration: 0.4s;
+            /* Safari */
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #555555;
+            color: white;
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <div align="center">
+        <p>
+            <img
+                src="https://storage.googleapis.com/kaggle-datasets-images/85351/196980/3aafcf84fdf394e61f0ed379c73f4b36/dataset-cover.jpg?t=2018-12-01-19-35-02">
+            <h1>suicide rates overview 1985 to 2016</h1>
+        </p>
+    </div>
+    <hr />
+
+    <div align="right">
+        <button class="button" onclick="location.href = '{{ url_for('basic') }}';">Table</button>
+        <button class="button" onclick="location.href = '{{ url_for('description') }}';">Description</button>
+        <button class="button" onclick="location.href = '{{ url_for('about') }}';">About</button>
+    </div>
+
+
+    <div class="Description_Content-sc-wgnpmt dFdNjO">
+        <div class="Description_ContentInner-sc-tnbhho iutyxX">
+            <div class="markdown-converter__text--rendered">
+                <h3>Content</h3>
+
+                <p>This compiled dataset pulled from four other datasets linked by time and place, and was built to find
+                    signals correlated to increased suicide rates among different cohorts globally, across the
+                    socio-economic spectrum.</p>
+
+                <h3>References</h3>
+
+                <p>United Nations Development Program. (2018). Human development index (HDI). Retrieved from <a
+                        href="http://hdr.undp.org/en/indicators/137506"
+                        rel="nofollow">http://hdr.undp.org/en/indicators/137506</a></p>
+
+                <p>World Bank. (2018). World development indicators: GDP (current US$) by country:1985 to 2016.
+                    Retrieved from <a href="http://databank.worldbank.org/data/source/world-development-indicators#"
+                        rel="nofollow">http://databank.worldbank.org/data/source/world-development-indicators#</a></p>
+
+                <p>[Szamil]. (2017). Suicide in the Twenty-First Century [dataset]. Retrieved from <a
+                        href="https://www.kaggle.com/szamil/suicide-in-the-twenty-first-century/notebook"
+                        rel="nofollow">https://www.kaggle.com/szamil/suicide-in-the-twenty-first-century/notebook</a>
+                </p>
+
+                <p>World Health Organization. (2018). Suicide prevention. Retrieved from <a
+                        href="http://www.who.int/mental_health/suicide-prevention/en/"
+                        rel="nofollow">http://www.who.int/mental_health/suicide-prevention/en/</a> </p>
+
+                <h3>Inspiration</h3>
+
+                <p>Suicide Prevention.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
